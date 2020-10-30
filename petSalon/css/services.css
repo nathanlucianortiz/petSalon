@@ -1,0 +1,122 @@
+nav a{
+    color: rgb(224, 104, 49);
+}
+nav a:hover{
+    color: whitesmoke;
+}
+#s-menu{
+    display: flex;
+    margin-top: 5rem;
+}
+#s1{
+    font-size: 1rem;
+    color: whitesmoke;
+    height: 2rem;
+    border: 1px solid rgb(224, 104, 49);
+    background-color: rgb(156, 7, 7);
+    color: whitesmoke;
+
+}
+#s2{
+    font-size: 1rem;
+    color: whitesmoke;
+    height: 2rem;
+    border: 1px solid rgb(224, 104, 49);
+    background-color: rgb(156, 7, 7);
+}
+#s3{
+    font-size: 1rem;
+    color: whitesmoke;
+    height: 2rem;
+    border: 1px solid rgb(224, 104, 49);
+    background-color: rgb(156, 7, 7);
+}
+#s4{
+    font-size: 1rem;
+    color: whitesmoke;
+    height: 2rem;
+    border: 1px solid rgb(224, 104, 49);
+    background-color: rgb(156, 7, 7);
+}
+#service1 img{
+    display: flex;
+    justify-content: center;
+    height: 15rem;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    border: 5px rgb(224, 104, 49);
+    border-style: double;
+    border-radius: 20%;
+}
+#service1 h3{
+    margin-left: 7.5rem;
+    margin-top: 1rem;
+}
+#service1 p{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+#service1 ul{
+    margin-left: 1rem;
+    list-style-type: none;
+}
+#service2 img{
+    display: flex;
+    justify-content: center;
+    height: 19rem;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    border: 5px rgb(224, 104, 49);
+    border-style: double;
+    border-radius: 20%;
+}
+#service2 h3{
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+#service2 p{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+#service3 img{
+    display: flex;
+    justify-content: center;
+    height: 19rem;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    border: 5px rgb(224, 104, 49);
+    border-style: double;
+    border-radius: 20%;
+}
+#service3 h3{
+    display: center;
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+#service3 h4{
+    display: center;
+    margin-left: 5rem;
+}
+#service3 p{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+#service4 img{
+    display: flex;
+    justify-content: center;
+    height: 19rem;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    border: 5px rgb(224, 104, 49);
+    border-style: double;
+    border-radius: 20%;
+}
+#service4 h3{
+    display: center;
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+#service4 p{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}

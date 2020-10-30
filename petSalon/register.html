@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/">
+    <script src="https://kit.fontawesome.com/6da635e2db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/register.css">
+    <title>The Fashion Pet</title>
+</head>
+<body>
+    <header>
+        <img class="header-img" src="" alt="">
+        <h1>The Fashion Pet</h1>
+    </header>
+
+    <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="register.html">Register</a>
+    </nav>
+
+    <main class="container">
+        <form action="">
+             <!--add the labels and inputs
+             name:"Speedy",
+             age:60, number
+             gender:"Male",
+             type:"Mouse",
+             breed:"Mixed",
+             service:"Bath",
+             ownersName:"Bunny",
+             contactPhone:"99-999-999" -->
+
+            <p class="form-group">
+                <label for="name">Name:</label>
+                <input name="name" class="form-control" type="text" id="petName">
+            </p>
+
+            <p class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" class="form-control" name="age" id="petAge">
+            </p>
+
+            <p class="form-group">
+                <label for="type">Type:</label>
+                <input type="text" class="form-control" id="petType">
+            </p>
+
+
+            <p class="form-group">
+                <label for="breed">Breed:</label>
+                <input type="text" class="form-control" id="petBreed">
+            </p>
+
+             <p class="form-group">
+                <label for="gender">Gender:</label>
+                <input type="text" class="form-control" id="petGender">
+            </p>
+
+            <p class="form-group">
+                <label for="services">Services:</label>
+                <select name="services" class="form-control" id="petService">
+                    <option value="" disabled selected> ---- Select a Service ---- </option>
+                    <option value="Full Service Deluxe">Full Service Deluxe</option>
+                    <option value="All Natural Bath">All Natural Bath</option>
+                    <option value="Style Haircut">Style sHaircut</option>
+                    <option value="Nail Trimming">Nail Trimming</option>
+                </select>
+            </p>
+
+            <p class="form-group">
+                <label for="price">Price:</label>
+                <input type="number" name="price" class="form-control" id="servicePrice">
+            </p>
+
+            <p class="form-group">
+                <label for="Oname">Owner's Name:</label>
+                <input type="text" class="form-control" id="ownersName">
+            </p>
+
+            <p class="form-group">
+                <label for="contactphone">Contact Phone:</label>
+                <input type="text" class="form-control" id="contactPhone">
+            </p>
+
+            <p class="form-group">
+                <label for="payment">Payment:</label>
+                <select name="payment" class="form-control" id="paymentOption">
+                    <option value="" disabled selected>---Select Payment Option---</option>
+                    <option value="Visa Debit">Visa Debit</option>
+                    <option value="Apple Pay">Apple Pay</option>
+                    <option value="Cash">Cash</option>   
+                </select>
+            </p>
+
+
+            <input type="button" class="btn btn-success" value="Register" onclick="register();">        
+
+        </form>
+    </main>
+
+    <div class="general-info">
+        <p id="registeredPets"></p>
+        <p id="profits"></p>
+    </div>
+
+    <!-- div id="pets">
+                
+    </div>-->
+    <div>
+        <input type="text" name="search" id="searchPet">
+        <button class="btn btn-success" onclick="search();">Search</button>
+    </div>
+    <div style="overflow-x:auto;">
+    <table>
+        <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Type</th>
+            <th>Breed</th>
+            <th>Service</th>
+            <th>Price</th>
+            <th>Owner</th>
+            <th>Contact Phone</th>
+            <th>Payment Option</th>
+            <th></th>
+        </thead>
+        <tbody id="petTable">
+
+        </tbody>
+    </table>
+    </div>
+
+    <footer>
+        <p id="footer-info"></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/directory.js"></script>
+</body>
+</html>

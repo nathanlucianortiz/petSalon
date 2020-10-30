@@ -1,0 +1,56 @@
+nav a{
+    color: rgb(224, 104, 49);
+}
+nav a:hover{
+    color: whitesmoke;
+}
+.btn{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+#footer-info{
+    margin-bottom: 5.5rem;
+    color: black;
+}
+#petTable{
+    background-color: rgb(221, 99, 28);
+    opacity: 75%;
+    table-layout: auto;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    color: whitesmoke;
+}
+@media(min-width: 768px){
+    #petTable{
+        margin-left: 10rem;
+    }
+}
+td{
+    font-size: 1rem;
+    border: 3px double rgb(156, 7, 7);
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin-left: 1rem;
+}
+thead{
+    display: block;
+    color: rgb(156, 7, 7);
+    margin-left: .5rem;
+}
+th{
+    font-size: 1rem;
+    padding-right: 1.1rem;
+}
+#searchPet{
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+.btn-success{
+    color:  whitesmoke;
+    background-color:  rgb(156, 7, 7);
+    border: 2px solid rgb(221, 99, 28);
+}
+.btn-danger{
+    background-color: rgb(156, 7, 7);
+}

@@ -1,0 +1,6 @@
+nav a{
+    color: rgb(224, 104, 49);
+}
+nav a:hover{
+    color: whitesmoke;
+}

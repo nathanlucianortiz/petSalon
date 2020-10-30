@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: 'Nanum Myeongjo', serif;
+    background: url("https://www.ces.ncsu.edu/wp-content/uploads/2015/09/bigstock-Moody-autumn-background-with-f-69617617.jpg") no-repeat center fixed;
+    background-size: cover;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 4rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    
+}
+.logo-dog{
+    height: 7rem;
+    width: 10.5rem;
+}
+.logo-cat{
+    height: 7rem;
+    width: 11rem;
+}
+.logo-bird{
+    height: 7rem;
+    width: 10rem;
+}
+nav{
+    cursor: pointer;
+}
+
+nav a{
+    display: block;
+    cursor: pointer;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 2rem; 
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a:hover{
+    color: rgb(224, 104, 49);
+}
+@media(min-width:768px){
+    /* desktop design*/
+    nav{
+        text-align: center;
+        
+    }
+    nav a{
+        display: block;
+    }
+}
+#registeredPets{
+    margin-left: 1rem;
+}
+@media(min-width:768px){
+    #registeredPets{
+    margin-left: 10rem;
+    }
+}
+#profits{
+    margin-left: 1rem;
+}
+@media(min-width:768px){
+    #profits{
+        margin-left: 10rem;
+    }
+}
+#pets{
+    display:grid;
+    padding: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+}
+.pet{
+    border: 2px solid black;
+    padding: 1rem;
+}
+.pet h2{
+    font-size: 18px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 12rem;
+}
+footer p{
+    color: whitesmoke;
+}
+@media(min-width:768px){
+    footer{
+        margin-top: 13rem;
+    }
+}
+.highlight{
+    background-color: rgb(233, 233, 112);
+}
