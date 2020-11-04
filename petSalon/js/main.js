@@ -104,7 +104,7 @@ function search(){
 
     for(var i=0;i<salon.pets.length;i++){
         // search by name || service
-        if(searchString.toLowerCase()===salon.pets[i].name.toLowerCase() || salon.pets[i].service.toLowerCase())
+        if(searchString.toLowerCase()===salon.pets[i].name.toLowerCase() || salon.pets[i].service.toLowerCase()===searchString.toLowerCase())
         {
             searchIndex=i;
         }
@@ -140,6 +140,19 @@ function init(){
     profitCalculation();
    
     // hook events
+    $('#btn-register').on('click', register);
+    $('#btn-search').on('click', search);
+    $('#searchPet').keypress(function(e){
+        //display hello if user hits enter
+        if(e.key==="Enter"){
+            search();
+        }
+    });
+    $('#paymentOption').keypress(function(e){
+        if(e.key==="Enter"){
+            register();
+        }
+    });
 }
 
 window.onload=init;
