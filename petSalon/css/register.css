@@ -46,6 +46,23 @@ th{
     margin-left: 1rem;
     padding-top: 1rem;
 }
+@media(min-width:768px){
+    #searchPet{
+        margin-left: 10rem;
+    }
+    thead{
+        margin-left: 10.3rem;
+    }
+    th{
+        padding-right: 1rem;
+    }
+    #th-age{
+        padding-left: .6rem;
+    }
+    #th-price{
+        padding-left: 3.5rem;
+    }
+}
 .btn-success{
     color:  whitesmoke;
     background-color:  rgb(156, 7, 7);
@@ -55,5 +72,17 @@ th{
     background-color: rgb(156, 7, 7);
 }
 #register-dog{
-    width: 20%;
+    margin-left: 7.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 50%;
+    border: 5px rgb(224, 104, 49);
+    border-style: double;
+    border-radius: 20%;
+}
+@media(min-width:768px){
+    #register-dog{
+        width: 30%;
+        margin-left: 31rem;
+    }
 }

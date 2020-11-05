@@ -1,45 +1,81 @@
 nav a{
+    display: block;
     color: rgb(224, 104, 49);
+    text-decoration: none;
+    font-size: 25 px; 
+    text-align: center;
+    padding-top: 10px;
+}
+nav a:last-of-type{
+    padding-bottom: 10px;
 }
 nav a:hover{
     color: whitesmoke;
 }
 #s-menu{
     display: flex;
-    margin-top: 5rem;
-}
-#s1{
-    font-size: 1rem;
-    color: whitesmoke;
-    height: 2rem;
-    border: 1px solid rgb(224, 104, 49);
     background-color: rgb(156, 7, 7);
-    color: whitesmoke;
+    border: 5px rgb(221, 99, 28);
+    border-style: double;
+    color: whitesmoke;  
+    height: 6rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#s-menu a{
+    padding: 1rem;
+}
+@media(min-width:768px){
+    #s-menu{
+        justify-content: center;
+    }
+    #s-menu a{
+        justify-content: center;
+    }
+    #s1{
+        border-left: 5px rgb(221, 99, 28);
+        border-style: double;
+    }
+    #s2{
+        border-left: 5px rgb(221, 99, 28);
+        border-style: double;
+    }
+    #s3{
+        border-left: 5px rgb(221, 99, 28);
+        border-style: double;
+    }
+    #s4{
+        border-left: 5px rgb(221, 99, 28);
+        border-style: double;
+        border-right: 2px solid black;
+    }
+}
 
+#s1{
+    border-right: 2px solid black;
+    color: whitesmoke;
+    font-size: 1rem;
+    height: 4rem;
 }
 #s2{
+    border-right: 2px solid black;
     font-size: 1rem;
     color: whitesmoke;
-    height: 2rem;
-    border: 1px solid rgb(224, 104, 49);
-    background-color: rgb(156, 7, 7);
+    height: 4rem;
 }
 #s3{
+    border-right: 2px solid black;
     font-size: 1rem;
     color: whitesmoke;
-    height: 2rem;
-    border: 1px solid rgb(224, 104, 49);
-    background-color: rgb(156, 7, 7);
+    height: 4rem;
 }
 #s4{
     font-size: 1rem;
     color: whitesmoke;
-    height: 2rem;
-    border: 1px solid rgb(224, 104, 49);
-    background-color: rgb(156, 7, 7);
-}
+    height: 4rem;  
+} 
 #service1 img{
-    display: flex;
     justify-content: center;
     height: 15rem;
     margin-top: 4rem;
@@ -48,20 +84,60 @@ nav a:hover{
     border-style: double;
     border-radius: 20%;
 }
+@media(min-width:768px){
+    #service1 img{
+        margin-left: 25rem;
+        height: 20rem;
+    }
+    #service1 h3{
+        padding-left: 28rem;
+    }
+    #service1 p{
+        padding-left: 20rem;
+    }
+    #service1 ul{
+        padding-left: 20rem;
+    }
+    #service2 img{
+        margin-left: 25rem;
+    }
+    #service2 h3{
+        padding-left: 28rem;
+    }
+    #service2 p{
+        padding-left: 3rem;
+    }
+    #service3 img{
+        margin-left: 25rem;
+    }
+    #service3 h3{
+        padding-left: 28rem;
+    }
+    #service h4{
+        margin-left: 30rem;
+    }
+    #service p{
+        margin-left: 28rem;
+    }
+    #service4 img{
+        margin-left: 28rem;
+    }
+}
 #service1 h3{
-    margin-left: 7.5rem;
+    margin-left: 7rem;
     margin-top: 1rem;
+    font-size: 2rem;
 }
 #service1 p{
     margin-left: 1rem;
     margin-top: 1rem;
+    font-size: 1rem;
 }
 #service1 ul{
     margin-left: 1rem;
     list-style-type: none;
 }
 #service2 img{
-    display: flex;
     justify-content: center;
     height: 19rem;
     margin-top: 4rem;
@@ -79,7 +155,6 @@ nav a:hover{
     margin-top: 1rem;
 }
 #service3 img{
-    display: flex;
     justify-content: center;
     height: 19rem;
     margin-top: 4rem;
@@ -102,7 +177,6 @@ nav a:hover{
     margin-left: 1rem;
 }
 #service4 img{
-    display: flex;
     justify-content: center;
     height: 19rem;
     margin-top: 4rem;

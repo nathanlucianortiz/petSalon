@@ -4,3 +4,14 @@ nav a{
 nav a:hover{
     color: whitesmoke;
 }
+#content{
+    margin-top: 3rem;
+}
+#content p{
+    font-size: 1rem;
+    color: whitesmoke;
+    border: 3px double rgb(156, 7, 7);
+    border-radius: 10%;
+    background-color: rgb(221, 99, 28);
+    opacity: 75%;
+}
