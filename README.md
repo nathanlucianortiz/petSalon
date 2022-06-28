@@ -1,2 +1,2 @@
 # petSalon
-* JS project to simulate registerings pets for grooming services. 
+* JS project to simulate registering pets for grooming services. 
