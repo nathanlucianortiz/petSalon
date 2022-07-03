@@ -3,4 +3,4 @@
 
 <br/>
 
-![Home Page](.petSalon/img/home.png)
+![Home Page](./petSalon/img/home.png)
