@@ -1,5 +1,5 @@
 # petSalon
-<p>JS project to simulate registering pets for grooming services.</p>
+<p>Javascript project to simulate registering pets for grooming services.</p>
 
 <br/>
 
